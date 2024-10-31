@@ -48,7 +48,7 @@ function App() {
                     <span className="heading-primary--sub">Ashok Dwivedi</span>
                 </h1>
                 <span  onClick={(e) => {e.preventDefault(); aboutAcharyaRef.current.scrollIntoView({ behavior: 'smooth' })}}>
-                <a className="btn btn--white btn--animated">Discover my work</a>
+                <a className="btn btn--white btn--animated">Discover</a>
                 </span>
             </div>
         </header>
@@ -123,7 +123,6 @@ In his youth, Acharya Ji moved to Nashik's Panchavati area in Maharashtra, where
                 <div className="row">
                     <div className="story">
                         <div className="story__text">
-                            <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
                             <p>
                             Acharya Ji firmly believes that in today's world, puja path and karma kand have become commercialized. As a result, uneducated, inexperienced, and insensitive individuals have also started performing these rituals. Additionally, most yajamans lack knowledge about puja procedures and karma kand methods, making them vulnerable to exploitation by unscrupulous individuals.
 

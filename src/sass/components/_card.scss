@@ -35,7 +35,7 @@
             }
 
             &-3 {
-                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
             }
         }
     }
@@ -62,17 +62,93 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            url(../../img/nat-5.jpg);
+            url(../../img/card-1.jpeg);
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            url(../../img/nat-6.jpg);
+            url(../../img/card-2.jpeg);
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
-            url(../../img/nat-7.jpg);
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-3.jpeg);
+        }
+        &--4 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-4.jpeg);
+        }
+
+        &--5 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
+            url(../../img/card-5.jpeg);
+        }
+
+        &--6 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-6.jpeg);
+        }
+        &--7 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-7.jpeg);
+        }
+
+        &--8 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
+            url(../../img/card-8.jpeg);
+        }
+
+        &--9 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-9.jpeg);
+        }
+        &--10 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-10.jpeg);
+        }
+        &--11 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-11.jpeg);
+        }
+        &--12 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-12.jpeg);
+        }
+        &--13 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-13.jpeg);
+        }
+        &--14 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-14.jpeg);
+        }
+        &--15 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-15.jpeg);
+        }
+        &--16 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-16.jpeg);
+        }
+        &--17 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-17.jpeg);
+        }
+        &--18 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-18.jpeg);
+        }
+        &--19 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-19.jpeg);
+        }
+        &--20 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-20.jpeg);
+        }
+        &--21 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../../img/card-21.jpeg);
         }
     }
 
@@ -108,9 +184,10 @@
 
         &--3 {
             background-image: linear-gradient(to right bottom, 
-            rgba($color-tertiary-light, .85), 
-            rgba($color-tertiary-dark, .85));
+            rgba($color-secondary-light, .85), 
+            rgba($color-secondary-dark, .85));
         }
+
     }
 
     &__details {

@@ -18,25 +18,18 @@
 
     &__content {
         @include absCenter;
-
         width: 75%;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
         border-radius: 3px;
         display: table;
-        overflow: hidden;
         opacity: 0;
         transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
     }
 
-    &__left {
-        width: 33.333333%;
-        display: table-cell;
-    }
-
     &__right {
-        width: 66.6666667%;
+        width: 100%;
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
@@ -94,4 +87,29 @@
             color: $color-primary;
         }
     }
+}
+
+@media only screen and (max-width: 37.5em){
+    .popup__text {
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
+
+        h5{
+            font-size: 1.2rem;
+        }
+
+        -moz-column-count: 1;
+        -moz-column-gap: 4rem; //1em = 14px;
+        -moz-column-rule: 1px solid $color-grey-light-2;
+
+        column-count:1;
+        column-gap: 4rem; //1em = 14px;
+        column-rule: 1px solid $color-grey-light-2;
+
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+
 }

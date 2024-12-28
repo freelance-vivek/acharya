@@ -4,9 +4,10 @@
         to right bottom,
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8)),
-    url(../../img/buddha-hero.jpg);
-    background-size: cover;
-    background-position: top;
+    url(../../img/om.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     
 
@@ -23,7 +24,7 @@
             to right bottom,
             rgba($color-primary-light, 0.8),
             rgba($color-primary-dark, 0.8)),
-        url(../../img/buddha-hero.jpg);
+        url(../../img/om.jpeg);
     }
 
     @include respond(phone) {
